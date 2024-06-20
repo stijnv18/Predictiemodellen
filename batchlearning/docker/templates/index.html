@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graph</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="graph"></div>
+    <button id="start-button">Start Training</button>
+    <script>
+        var graphs = {{ graphJSON | safe }};
+        if (graphs) {
+            Plotly.newPlot('graph', graphs.data, graphs.layout);
+        }
+
+        document.getElementById('start-button').addEventListener('click', function() {
+            fetch('/start_training', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(error => console.error('Error:', error));
+        
+            // Start updating the graph every second
+            setInterval(function() {
+                fetch('/latest_prediction')
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);  // Log the data
+                        var newData = [{
+                            x: data.dates.slice(-168),
+                            y: data.values.slice(-168),
+                        }];
+                        if (graphs) {
+                            Plotly.newPlot('graph', newData, graphs.layout);
+                        } else {
+                            Plotly.newPlot('graph', newData, { yaxis: { range: [0, Math.max(...data.values) + 0.1] } });
+                        }
+                    })
+                    .catch(error => console.error('Error:', error));
+            }, 100);
+        });
+    </script>
+</body>
+</html>

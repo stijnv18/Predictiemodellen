@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graph</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="graph"></div>
+    <button id="start-button">Start snarimax model</button>
+    <button id="start-holt-model-button">Start holt Model</button>
+	<input id="prediction-length" type="number" min="1" value="168">
+    <script>
+        var graphs = {{ graphJSON | safe }};
+        if (graphs) {
+            Plotly.newPlot('graph', graphs.data, graphs.layout);
+        }
+		var predictionLength = document.getElementById('prediction-length').value;
+		console.log(predictionLength);
+        document.getElementById('start-button').addEventListener('click', startModel('/start_training', 'model1', predictionLength));
+        document.getElementById('start-holt-model-button').addEventListener('click', startModel('/start_training', 'model2', predictionLength));
+
+        function startModel(url, model) {
+            return function() {
+				// Clear the existing graph
+                Plotly.newPlot('graph', [], {});
+                fetch(url, {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify({ model: model, prediction_length: predictionLength }),
+				})
+                    .then(response => response.json())
+                    .then(data => console.log(data))
+                    .catch(error => console.error('Error:', error));
+
+                // Start updating the graph every second
+                setInterval(function() {
+					fetch('/latest_prediction')
+						.then(response => response.json())
+						.then(data => {
+							console.log(data);  // Log the data
+							var predictionData = [{
+								x: data.prediction_dates.slice(-168),
+								y: data.prediction_values.slice(-168),
+								name: 'Predictions',
+								line: {color: 'blue'}
+							}];
+							var actualData = [{
+								x: data.actual_dates.slice(-168),
+								y: data.actual_values.slice(-168),
+								name: 'Actual values',
+								line: {color: 'red'}
+							}];
+							var newData = predictionData.concat(actualData);
+							if (graphs) {
+								Plotly.newPlot('graph', newData, graphs.layout);
+							} else {
+								Plotly.newPlot('graph', newData, { yaxis: { range: [0, Math.max(...data.prediction_values, ...data.actual_values) + 0.1] } });
+							}
+						})
+						.catch(error => console.error('Error:', error));
+				}, 100);
+            };
+        }
+    </script>
+</body>
+</html>
