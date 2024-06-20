@@ -1,0 +1,84 @@
+steps_ahead = 4 * 24 * 365  # Number of 15-minute intervals in a year
+
+# Create a model
+model = compose.Pipeline(
+    preprocessing.StandardScaler(),
+    linear_model.PARegressor()
+)
+
+# Define a metric
+metric = metrics.MAE()
+
+# Prepare lists to store the actual and predicted values
+actuals = []
+predictions = []
+
+# Iterate over the data and update the model and the metric
+for xi, yi in stream.iter_pandas(df[selected_features], df[target]):
+    y_pred = model.predict_one(xi) if model else None
+    model.learn_one(xi, yi)
+    if y_pred is not None:
+        metric.update(yi, y_pred)
+        actuals.append(yi)
+        predictions.append(y_pred)
+
+print(f'MAE: {metric.get()}')
+
+# Plot the actual vs predicted values
+plt.plot(actuals, label='Actual')
+plt.plot(predictions, label='Predicted')
+plt.legend()
+plt.show()
+
+# Predict for the next year
+start_date = df['utc_timestamp'].max() + pd.Timedelta(minutes=15)
+end_date = start_date + pd.Timedelta(minutes=15*steps_ahead)
+dates = pd.date_range(start_date, end_date, freq='15min')
+
+predictions_next_year = []
+for date in dates:
+    xi = {
+        'hour_of_day': date.hour,
+        'day_of_week': date.dayofweek,
+        'month': date.month,
+        # Fill in the other features as appropriate
+        #'DE_KN_residential4_grid_export': df['DE_KN_residential4_grid_export'].mean(),  # Example: mean value
+        'temp': np.random.rand(),  # Example: random value
+        'season_Summer': 1 if date.month in [6, 7, 8] else 0,
+        'season_Winter': 1 if date.month in [12, 1, 2] else 0,
+        'season_Spring': 1 if date.month in [3, 4, 5] else 0,
+        'season_Autumn': 1 if date.month in [9, 10, 11] else 0,
+        'holiday': 0  # Example: no holidays
+    }
+    y_pred = model.predict_one(xi)
+    predictions_next_year.append(y_pred)
+
+# Get the dates for all the steps
+dates_all_steps = df['utc_timestamp']
+
+# Plot the actual vs predicted values for all steps
+plt.figure(figsize=(12, 8))
+
+plt.subplot(2, 1, 1)
+plt.plot(dates_all_steps, actuals, label='Actual')
+plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+plt.gca().xaxis.set_major_locator(mdates.MonthLocator())
+plt.gcf().autofmt_xdate()
+plt.legend()
+
+plt.subplot(2, 1, 2)
+plt.plot(dates_all_steps, predictions, label='Predicted', color='orange')
+plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+plt.gca().xaxis.set_major_locator(mdates.MonthLocator())
+plt.gcf().autofmt_xdate()
+plt.legend()
+
+plt.show()
+
+# Plot the predictions for the next year
+plt.figure(figsize=(12, 6))
+plt.plot(dates, predictions_next_year)
+plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+plt.gca().xaxis.set_major_locator(mdates.MonthLocator())
+plt.gcf().autofmt_xdate()
+plt.show()

@@ -1,0 +1,29 @@
+2024-04-23 12:18:18,997 - started running grid search for customer 36
+2024-04-23 12:18:37,214 - exception calling callback for <Future at 0x1d6fd6c5790 state=finished raised TerminatedWorkerError>
+Traceback (most recent call last):
+  File "C:\Users\stijn\anaconda3\Lib\site-packages\joblib\externals\loky\_base.py", line 26, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\stijn\anaconda3\Lib\site-packages\joblib\parallel.py", line 385, in __call__
+    self.parallel.dispatch_next()
+  File "C:\Users\stijn\anaconda3\Lib\site-packages\joblib\parallel.py", line 834, in dispatch_next
+    if not self.dispatch_one_batch(self._original_iterator):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stijn\anaconda3\Lib\site-packages\joblib\parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\stijn\anaconda3\Lib\site-packages\joblib\parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stijn\anaconda3\Lib\site-packages\joblib\_parallel_backends.py", line 556, in apply_async
+    future = self._workers.submit(SafeFunction(func))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stijn\anaconda3\Lib\site-packages\joblib\externals\loky\reusable_executor.py", line 176, in submit
+    return super().submit(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\stijn\anaconda3\Lib\site-packages\joblib\externals\loky\process_executor.py", line 1129, in submit
+    raise self._flags.broken
+joblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+2024-04-23 12:18:50,197 - started running grid search for customer 36
+2024-04-23 12:23:14,529 - started running grid search for customer 36
+2024-04-23 12:36:45,636 - started running grid search for customer 36
+2024-04-23 15:30:48,214 - Best neuron numbers: (5, 2, 9, 5), best MAE: 0.016085931089265745

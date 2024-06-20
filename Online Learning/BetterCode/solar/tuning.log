@@ -1,0 +1,550 @@
+2024-04-17 15:25:45,611 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 20}
+2024-04-17 15:25:45,612 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:25:45,675 TBB already found in load path
+2024-04-17 15:25:45,739 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\aevvocm4.json
+2024-04-17 15:25:46,976 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\y2l9r_be.json
+2024-04-17 15:25:46,977 idx 0
+2024-04-17 15:25:46,977 running CmdStan, num_threads: None
+2024-04-17 15:25:46,977 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=10598', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\aevvocm4.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\y2l9r_be.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modeldkre0a_x\\prophet_model-20240417152546.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:25:46,978 Chain [1] start processing
+2024-04-17 15:25:47,878 Chain [1] done processing
+2024-04-17 15:25:47,914 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:25:47,915 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB839C2B0>
+2024-04-17 15:26:00,993 Skipping MAPE because y close to 0
+2024-04-17 15:26:01,041 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 20}, RMSE: 0.062488269667450747
+2024-04-17 15:26:01,041 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 25}
+2024-04-17 15:26:01,042 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:26:01,282 TBB already found in load path
+2024-04-17 15:26:01,341 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\xi3xcfwr.json
+2024-04-17 15:26:02,811 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\19h4bll1.json
+2024-04-17 15:26:02,812 idx 0
+2024-04-17 15:26:02,812 running CmdStan, num_threads: None
+2024-04-17 15:26:02,812 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=95879', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\xi3xcfwr.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\19h4bll1.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelxmfjk__e\\prophet_model-20240417152602.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:26:02,812 Chain [1] start processing
+2024-04-17 15:26:03,839 Chain [1] done processing
+2024-04-17 15:26:03,881 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:26:03,883 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB47F2B60>
+2024-04-17 15:26:18,846 Skipping MAPE because y close to 0
+2024-04-17 15:26:18,897 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 25}, RMSE: 0.0625010459884338
+2024-04-17 15:26:18,897 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 30}
+2024-04-17 15:26:18,898 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:26:19,207 TBB already found in load path
+2024-04-17 15:26:19,269 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\7bm07uwp.json
+2024-04-17 15:26:20,668 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\if8kddu7.json
+2024-04-17 15:26:20,668 idx 0
+2024-04-17 15:26:20,668 running CmdStan, num_threads: None
+2024-04-17 15:26:20,668 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=53841', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\7bm07uwp.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\if8kddu7.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_model9sebi_52\\prophet_model-20240417152620.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:26:20,668 Chain [1] start processing
+2024-04-17 15:26:21,605 Chain [1] done processing
+2024-04-17 15:26:21,649 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:26:21,649 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB40E3E80>
+2024-04-17 15:26:38,491 Skipping MAPE because y close to 0
+2024-04-17 15:26:38,559 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 30}, RMSE: 0.06249241781367639
+2024-04-17 15:26:38,559 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 20}
+2024-04-17 15:26:38,561 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:26:38,821 TBB already found in load path
+2024-04-17 15:26:38,894 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\2mey_9g8.json
+2024-04-17 15:26:40,552 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\zz8k9zwk.json
+2024-04-17 15:26:40,553 idx 0
+2024-04-17 15:26:40,553 running CmdStan, num_threads: None
+2024-04-17 15:26:40,553 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=94713', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\2mey_9g8.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\zz8k9zwk.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelwwqtxvc8\\prophet_model-20240417152640.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:26:40,553 Chain [1] start processing
+2024-04-17 15:26:42,646 Chain [1] done processing
+2024-04-17 15:26:42,703 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:26:42,704 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB839BF40>
+2024-04-17 15:26:57,307 Skipping MAPE because y close to 0
+2024-04-17 15:26:57,341 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 20}, RMSE: 0.06257966854949969
+2024-04-17 15:26:57,341 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 25}
+2024-04-17 15:26:57,342 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:26:57,664 TBB already found in load path
+2024-04-17 15:26:57,748 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\pa9q7gf9.json
+2024-04-17 15:26:59,428 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\m53ubxj3.json
+2024-04-17 15:26:59,430 idx 0
+2024-04-17 15:26:59,430 running CmdStan, num_threads: None
+2024-04-17 15:26:59,430 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=42431', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\pa9q7gf9.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\m53ubxj3.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_model1pvd6u0o\\prophet_model-20240417152659.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:26:59,430 Chain [1] start processing
+2024-04-17 15:27:00,722 Chain [1] done processing
+2024-04-17 15:27:00,765 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:27:00,765 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB854C3D0>
+2024-04-17 15:27:15,179 Skipping MAPE because y close to 0
+2024-04-17 15:27:15,214 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 25}, RMSE: 0.06251670945922053
+2024-04-17 15:27:15,214 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 30}
+2024-04-17 15:27:15,228 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:27:15,471 TBB already found in load path
+2024-04-17 15:27:15,517 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\v8cvu8z9.json
+2024-04-17 15:27:17,059 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\jc4ufd3f.json
+2024-04-17 15:27:17,060 idx 0
+2024-04-17 15:27:17,060 running CmdStan, num_threads: None
+2024-04-17 15:27:17,060 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=83230', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\v8cvu8z9.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\jc4ufd3f.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modele_k1tju1\\prophet_model-20240417152717.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:27:17,060 Chain [1] start processing
+2024-04-17 15:27:18,362 Chain [1] done processing
+2024-04-17 15:27:18,403 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:27:18,404 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB4F3E830>
+2024-04-17 15:27:32,941 Skipping MAPE because y close to 0
+2024-04-17 15:27:32,987 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 30}, RMSE: 0.06275500520962514
+2024-04-17 15:27:32,988 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 20}
+2024-04-17 15:27:32,990 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:27:33,249 TBB already found in load path
+2024-04-17 15:27:33,296 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\rm6nt5y4.json
+2024-04-17 15:27:34,590 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\mzgsi1j2.json
+2024-04-17 15:27:34,591 idx 0
+2024-04-17 15:27:34,591 running CmdStan, num_threads: None
+2024-04-17 15:27:34,591 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=46034', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\rm6nt5y4.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\mzgsi1j2.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelrn8r3j52\\prophet_model-20240417152734.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:27:34,591 Chain [1] start processing
+2024-04-17 15:27:35,483 Chain [1] done processing
+2024-04-17 15:27:35,515 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:27:35,516 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB48E6E30>
+2024-04-17 15:27:47,721 Skipping MAPE because y close to 0
+2024-04-17 15:27:47,782 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 20}, RMSE: 0.062488269667450747
+2024-04-17 15:27:47,803 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 25}
+2024-04-17 15:27:47,807 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:27:48,056 TBB already found in load path
+2024-04-17 15:27:48,110 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\dtxls1t9.json
+2024-04-17 15:27:49,454 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\c__4lm7x.json
+2024-04-17 15:27:49,455 idx 0
+2024-04-17 15:27:49,455 running CmdStan, num_threads: None
+2024-04-17 15:27:49,455 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=55133', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\dtxls1t9.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\c__4lm7x.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelupdpde7a\\prophet_model-20240417152749.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:27:49,455 Chain [1] start processing
+2024-04-17 15:27:50,571 Chain [1] done processing
+2024-04-17 15:27:50,608 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:27:50,608 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB40E2F50>
+2024-04-17 15:28:05,909 Skipping MAPE because y close to 0
+2024-04-17 15:28:05,951 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 25}, RMSE: 0.0625010459884338
+2024-04-17 15:28:05,951 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 30}
+2024-04-17 15:28:05,952 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:28:06,243 TBB already found in load path
+2024-04-17 15:28:06,301 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\x2lsgkw5.json
+2024-04-17 15:28:07,575 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\9zx44w2x.json
+2024-04-17 15:28:07,576 idx 0
+2024-04-17 15:28:07,576 running CmdStan, num_threads: None
+2024-04-17 15:28:07,576 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=39851', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\x2lsgkw5.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\9zx44w2x.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelfell6vh9\\prophet_model-20240417152807.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:28:07,576 Chain [1] start processing
+2024-04-17 15:28:08,538 Chain [1] done processing
+2024-04-17 15:28:08,570 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:28:08,574 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB83AAA70>
+2024-04-17 15:28:23,803 Skipping MAPE because y close to 0
+2024-04-17 15:28:23,845 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 30}, RMSE: 0.06249241781367639
+2024-04-17 15:28:23,845 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.9, 'n_changepoints': 20}
+2024-04-17 15:28:23,846 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:28:24,119 TBB already found in load path
+2024-04-17 15:28:24,181 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\zd7cztn1.json
+2024-04-17 15:28:25,642 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\4adc0dlp.json
+2024-04-17 15:28:25,642 idx 0
+2024-04-17 15:28:25,642 running CmdStan, num_threads: None
+2024-04-17 15:28:25,642 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=6916', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\zd7cztn1.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\4adc0dlp.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelaiy6u33y\\prophet_model-20240417152825.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:28:25,643 Chain [1] start processing
+2024-04-17 15:28:27,407 Chain [1] done processing
+2024-04-17 15:28:27,446 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:28:27,447 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB839BE80>
+2024-04-17 15:28:39,869 Skipping MAPE because y close to 0
+2024-04-17 15:28:39,916 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.9, 'n_changepoints': 20}, RMSE: 0.06257966854949969
+2024-04-17 15:28:39,916 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.9, 'n_changepoints': 25}
+2024-04-17 15:28:39,917 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:28:40,192 TBB already found in load path
+2024-04-17 15:28:40,249 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\l_81hrkf.json
+2024-04-17 15:28:41,501 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\n_1ecy2h.json
+2024-04-17 15:28:41,502 idx 0
+2024-04-17 15:28:41,502 running CmdStan, num_threads: None
+2024-04-17 15:28:41,502 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=76671', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\l_81hrkf.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\n_1ecy2h.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modellipzft6l\\prophet_model-20240417152841.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:28:41,502 Chain [1] start processing
+2024-04-17 15:28:42,569 Chain [1] done processing
+2024-04-17 15:28:42,608 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:28:42,608 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB854C1F0>
+2024-04-17 15:28:56,430 Skipping MAPE because y close to 0
+2024-04-17 15:28:56,463 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.9, 'n_changepoints': 25}, RMSE: 0.06251670945922053
+2024-04-17 15:28:56,464 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.9, 'n_changepoints': 30}
+2024-04-17 15:28:56,464 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:28:56,635 TBB already found in load path
+2024-04-17 15:28:56,712 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\ywpd4ie7.json
+2024-04-17 15:28:57,871 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\n45e9bvc.json
+2024-04-17 15:28:57,871 idx 0
+2024-04-17 15:28:57,872 running CmdStan, num_threads: None
+2024-04-17 15:28:57,872 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=82064', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\ywpd4ie7.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\n45e9bvc.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelwmi4p4rn\\prophet_model-20240417152857.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:28:57,872 Chain [1] start processing
+2024-04-17 15:28:59,095 Chain [1] done processing
+2024-04-17 15:28:59,127 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:28:59,127 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB83AC730>
+2024-04-17 15:29:13,104 Skipping MAPE because y close to 0
+2024-04-17 15:29:13,174 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.9, 'n_changepoints': 30}, RMSE: 0.06275500520962514
+2024-04-17 15:29:13,212 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.8, 'n_changepoints': 20}
+2024-04-17 15:29:13,219 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:29:13,411 TBB already found in load path
+2024-04-17 15:29:13,449 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\6em35a7x.json
+2024-04-17 15:29:14,551 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\9jp_goxw.json
+2024-04-17 15:29:14,551 idx 0
+2024-04-17 15:29:14,552 running CmdStan, num_threads: None
+2024-04-17 15:29:14,552 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=52366', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\6em35a7x.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\9jp_goxw.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelh48fq0pd\\prophet_model-20240417152914.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:29:14,552 Chain [1] start processing
+2024-04-17 15:29:15,415 Chain [1] done processing
+2024-04-17 15:29:15,448 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:29:15,449 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB60F1540>
+2024-04-17 15:29:26,398 Skipping MAPE because y close to 0
+2024-04-17 15:29:26,528 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.8, 'n_changepoints': 20}, RMSE: 0.062488269667450747
+2024-04-17 15:29:26,528 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.8, 'n_changepoints': 25}
+2024-04-17 15:29:26,529 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:29:26,682 TBB already found in load path
+2024-04-17 15:29:26,723 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\hhf2txwj.json
+2024-04-17 15:29:28,045 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\a68e2ulk.json
+2024-04-17 15:29:28,046 idx 0
+2024-04-17 15:29:28,046 running CmdStan, num_threads: None
+2024-04-17 15:29:28,046 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=7136', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\hhf2txwj.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\a68e2ulk.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_model_wbtoejy\\prophet_model-20240417152928.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:29:28,046 Chain [1] start processing
+2024-04-17 15:29:29,091 Chain [1] done processing
+2024-04-17 15:29:29,124 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:29:29,125 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB40E3B20>
+2024-04-17 15:29:42,068 Skipping MAPE because y close to 0
+2024-04-17 15:29:42,114 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.8, 'n_changepoints': 25}, RMSE: 0.0625010459884338
+2024-04-17 15:29:42,114 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.8, 'n_changepoints': 30}
+2024-04-17 15:29:42,115 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:29:42,283 TBB already found in load path
+2024-04-17 15:29:42,349 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\i2q0wiqt.json
+2024-04-17 15:29:43,466 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\2czy1noq.json
+2024-04-17 15:29:43,466 idx 0
+2024-04-17 15:29:43,466 running CmdStan, num_threads: None
+2024-04-17 15:29:43,467 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=76604', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\i2q0wiqt.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\2czy1noq.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelv_vvruiv\\prophet_model-20240417152943.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:29:43,467 Chain [1] start processing
+2024-04-17 15:29:44,419 Chain [1] done processing
+2024-04-17 15:29:44,450 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:29:44,451 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB64FE680>
+2024-04-17 15:29:58,184 Skipping MAPE because y close to 0
+2024-04-17 15:29:58,221 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.8, 'n_changepoints': 30}, RMSE: 0.06249241781367639
+2024-04-17 15:29:58,222 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.9, 'n_changepoints': 20}
+2024-04-17 15:29:58,223 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:29:58,472 TBB already found in load path
+2024-04-17 15:29:58,512 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\t3ipm8fw.json
+2024-04-17 15:29:59,618 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\4m0yhmhf.json
+2024-04-17 15:29:59,619 idx 0
+2024-04-17 15:29:59,619 running CmdStan, num_threads: None
+2024-04-17 15:29:59,619 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=50421', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\t3ipm8fw.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\4m0yhmhf.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelekrgz317\\prophet_model-20240417152959.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:29:59,619 Chain [1] start processing
+2024-04-17 15:30:01,214 Chain [1] done processing
+2024-04-17 15:30:01,255 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:30:01,258 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB64FFFD0>
+2024-04-17 15:30:12,391 Skipping MAPE because y close to 0
+2024-04-17 15:30:12,424 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.9, 'n_changepoints': 20}, RMSE: 0.06257966854949969
+2024-04-17 15:30:12,433 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.9, 'n_changepoints': 25}
+2024-04-17 15:30:12,436 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:30:12,656 TBB already found in load path
+2024-04-17 15:30:12,831 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\3bme5907.json
+2024-04-17 15:30:13,944 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\xa5i190g.json
+2024-04-17 15:30:13,945 idx 0
+2024-04-17 15:30:13,945 running CmdStan, num_threads: None
+2024-04-17 15:30:13,945 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=76916', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\3bme5907.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\xa5i190g.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelmcu830nv\\prophet_model-20240417153013.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:30:13,945 Chain [1] start processing
+2024-04-17 15:30:15,012 Chain [1] done processing
+2024-04-17 15:30:15,041 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:30:15,042 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB38275E0>
+2024-04-17 15:30:27,236 Skipping MAPE because y close to 0
+2024-04-17 15:30:27,326 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.9, 'n_changepoints': 25}, RMSE: 0.06251670945922053
+2024-04-17 15:30:27,326 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.9, 'n_changepoints': 30}
+2024-04-17 15:30:27,327 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:30:27,517 TBB already found in load path
+2024-04-17 15:30:27,561 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\empiof36.json
+2024-04-17 15:30:28,657 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\j8qom5oc.json
+2024-04-17 15:30:28,657 idx 0
+2024-04-17 15:30:28,657 running CmdStan, num_threads: None
+2024-04-17 15:30:28,658 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=16155', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\empiof36.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\j8qom5oc.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelmg8kgitl\\prophet_model-20240417153028.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:30:28,658 Chain [1] start processing
+2024-04-17 15:30:29,839 Chain [1] done processing
+2024-04-17 15:30:29,868 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:30:29,870 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB5007550>
+2024-04-17 15:30:42,970 Skipping MAPE because y close to 0
+2024-04-17 15:30:43,013 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 1.0, 'changepoint_range': 0.9, 'n_changepoints': 30}, RMSE: 0.06275500520962514
+2024-04-17 15:30:43,014 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.8, 'n_changepoints': 20}
+2024-04-17 15:30:43,014 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:30:43,195 TBB already found in load path
+2024-04-17 15:30:43,377 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\d1jfxoaz.json
+2024-04-17 15:30:44,475 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\p8chkd28.json
+2024-04-17 15:30:44,476 idx 0
+2024-04-17 15:30:44,476 running CmdStan, num_threads: None
+2024-04-17 15:30:44,476 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=42012', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\d1jfxoaz.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\p8chkd28.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_model6g4fjhaj\\prophet_model-20240417153044.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:30:44,476 Chain [1] start processing
+2024-04-17 15:30:45,306 Chain [1] done processing
+2024-04-17 15:30:45,346 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:30:45,347 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB839BCA0>
+2024-04-17 15:30:56,209 Skipping MAPE because y close to 0
+2024-04-17 15:30:56,251 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.8, 'n_changepoints': 20}, RMSE: 0.062488269667450747
+2024-04-17 15:30:56,251 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.8, 'n_changepoints': 25}
+2024-04-17 15:30:56,252 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:30:56,461 TBB already found in load path
+2024-04-17 15:30:56,516 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\7l4bh21o.json
+2024-04-17 15:30:57,774 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\vf5rsqxj.json
+2024-04-17 15:30:57,775 idx 0
+2024-04-17 15:30:57,775 running CmdStan, num_threads: None
+2024-04-17 15:30:57,775 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=79134', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\7l4bh21o.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\vf5rsqxj.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelh2n2p0y2\\prophet_model-20240417153057.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:30:57,775 Chain [1] start processing
+2024-04-17 15:30:58,785 Chain [1] done processing
+2024-04-17 15:30:58,815 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:30:58,816 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB83C7E80>
+2024-04-17 15:31:11,831 Skipping MAPE because y close to 0
+2024-04-17 15:31:11,862 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.8, 'n_changepoints': 25}, RMSE: 0.0625010459884338
+2024-04-17 15:31:11,862 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.8, 'n_changepoints': 30}
+2024-04-17 15:31:11,863 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:31:12,095 TBB already found in load path
+2024-04-17 15:31:12,144 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\ffcjkynw.json
+2024-04-17 15:31:13,312 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\upk27qok.json
+2024-04-17 15:31:13,313 idx 0
+2024-04-17 15:31:13,313 running CmdStan, num_threads: None
+2024-04-17 15:31:13,313 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=13070', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\ffcjkynw.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\upk27qok.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelnobv6i5c\\prophet_model-20240417153113.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:31:13,313 Chain [1] start processing
+2024-04-17 15:31:14,231 Chain [1] done processing
+2024-04-17 15:31:14,265 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:31:14,265 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB60A3C40>
+2024-04-17 15:31:27,732 Skipping MAPE because y close to 0
+2024-04-17 15:31:27,776 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.8, 'n_changepoints': 30}, RMSE: 0.06249241781367639
+2024-04-17 15:31:27,776 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.9, 'n_changepoints': 20}
+2024-04-17 15:31:27,778 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:31:27,984 TBB already found in load path
+2024-04-17 15:31:28,037 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\di6mhqpp.json
+2024-04-17 15:31:29,313 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\zjlr7jim.json
+2024-04-17 15:31:29,314 idx 0
+2024-04-17 15:31:29,314 running CmdStan, num_threads: None
+2024-04-17 15:31:29,314 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=4883', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\di6mhqpp.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\zjlr7jim.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelstxctsb2\\prophet_model-20240417153129.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:31:29,314 Chain [1] start processing
+2024-04-17 15:31:30,938 Chain [1] done processing
+2024-04-17 15:31:30,968 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:31:30,968 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB8075FF0>
+2024-04-17 15:31:41,904 Skipping MAPE because y close to 0
+2024-04-17 15:31:41,942 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.9, 'n_changepoints': 20}, RMSE: 0.06257966854949969
+2024-04-17 15:31:41,942 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.9, 'n_changepoints': 25}
+2024-04-17 15:31:41,944 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:31:42,158 TBB already found in load path
+2024-04-17 15:31:42,212 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\uawywbsp.json
+2024-04-17 15:31:43,314 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\2l8v_tco.json
+2024-04-17 15:31:43,315 idx 0
+2024-04-17 15:31:43,315 running CmdStan, num_threads: None
+2024-04-17 15:31:43,315 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=40690', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\uawywbsp.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\2l8v_tco.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modeltt65dqha\\prophet_model-20240417153143.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:31:43,315 Chain [1] start processing
+2024-04-17 15:31:44,342 Chain [1] done processing
+2024-04-17 15:31:44,374 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:31:44,375 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB839BE80>
+2024-04-17 15:31:56,485 Skipping MAPE because y close to 0
+2024-04-17 15:31:56,529 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.9, 'n_changepoints': 25}, RMSE: 0.06251670945922053
+2024-04-17 15:31:56,529 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.9, 'n_changepoints': 30}
+2024-04-17 15:31:56,531 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:31:56,731 TBB already found in load path
+2024-04-17 15:31:56,789 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\fbe5dx0a.json
+2024-04-17 15:31:57,891 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\g4elg611.json
+2024-04-17 15:31:57,892 idx 0
+2024-04-17 15:31:57,892 running CmdStan, num_threads: None
+2024-04-17 15:31:57,892 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=50244', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\fbe5dx0a.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\g4elg611.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modell57zwxr7\\prophet_model-20240417153157.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:31:57,892 Chain [1] start processing
+2024-04-17 15:31:59,097 Chain [1] done processing
+2024-04-17 15:31:59,138 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:31:59,138 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB6543B50>
+2024-04-17 15:32:12,535 Skipping MAPE because y close to 0
+2024-04-17 15:32:12,565 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'linear', 'holidays_prior_scale': 10.0, 'changepoint_range': 0.9, 'n_changepoints': 30}, RMSE: 0.06275500520962514
+2024-04-17 15:32:12,565 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 20}
+2024-04-17 15:32:12,566 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:32:12,786 TBB already found in load path
+2024-04-17 15:39:35,564 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:39:35,619 TBB already found in load path
+2024-04-17 15:39:35,670 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\xeiea8zb.json
+2024-04-17 15:39:36,880 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\xijlpa65.json
+2024-04-17 15:39:36,881 idx 0
+2024-04-17 15:39:36,881 running CmdStan, num_threads: None
+2024-04-17 15:39:36,881 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=25440', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\xeiea8zb.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\xijlpa65.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modeldu_l_7qx\\prophet_model-20240417153936.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:39:36,881 Chain [1] start processing
+2024-04-17 15:39:38,177 Chain [1] done processing
+2024-04-17 15:40:01,409 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 20}
+2024-04-17 15:40:01,410 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:40:01,460 TBB already found in load path
+2024-04-17 15:40:01,658 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\7wud9p0j.json
+2024-04-17 15:40:03,062 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\tnquca8d.json
+2024-04-17 15:40:03,063 idx 0
+2024-04-17 15:40:03,063 running CmdStan, num_threads: None
+2024-04-17 15:40:03,063 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=43289', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\7wud9p0j.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\tnquca8d.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelifdilbes\\prophet_model-20240417154003.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:40:03,063 Chain [1] start processing
+2024-04-17 15:40:04,077 Chain [1] done processing
+2024-04-17 15:40:04,117 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:40:04,117 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FBBEC4040>
+2024-04-17 15:56:13,101 Skipping MAPE because y close to 0
+2024-04-17 15:56:13,200 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 20}, RMSE: 0.06445711932783088
+2024-04-17 15:56:13,200 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 25}
+2024-04-17 15:56:13,205 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 15:56:13,458 TBB already found in load path
+2024-04-17 15:56:13,538 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\1zw27ja9.json
+2024-04-17 15:56:14,802 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\q5ldf6k9.json
+2024-04-17 15:56:14,803 idx 0
+2024-04-17 15:56:14,803 running CmdStan, num_threads: None
+2024-04-17 15:56:14,803 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=71829', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\1zw27ja9.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\q5ldf6k9.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_model0xjauq80\\prophet_model-20240417155614.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 15:56:14,803 Chain [1] start processing
+2024-04-17 15:56:15,484 Chain [1] done processing
+2024-04-17 15:56:15,518 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 15:56:15,518 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB60F1630>
+2024-04-17 16:12:17,284 Skipping MAPE because y close to 0
+2024-04-17 16:12:17,368 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 25}, RMSE: 0.06358591235463797
+2024-04-17 16:12:17,368 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 30}
+2024-04-17 16:12:17,370 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 16:12:17,647 TBB already found in load path
+2024-04-17 16:12:18,015 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\vok688ws.json
+2024-04-17 16:12:19,389 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\rndpk4l0.json
+2024-04-17 16:12:19,391 idx 0
+2024-04-17 16:12:19,391 running CmdStan, num_threads: None
+2024-04-17 16:12:19,391 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=29021', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\vok688ws.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\rndpk4l0.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelzu93dw3c\\prophet_model-20240417161219.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 16:12:19,391 Chain [1] start processing
+2024-04-17 16:12:20,336 Chain [1] done processing
+2024-04-17 16:12:20,372 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 16:12:20,372 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB3827100>
+2024-04-17 16:28:44,204 Skipping MAPE because y close to 0
+2024-04-17 16:28:44,255 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 30}, RMSE: 0.06458574501529164
+2024-04-17 16:28:44,255 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 20}
+2024-04-17 16:28:44,257 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 16:28:44,517 TBB already found in load path
+2024-04-17 16:28:44,570 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\vy40d9y9.json
+2024-04-17 16:28:45,720 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\lwhebv_s.json
+2024-04-17 16:28:45,722 idx 0
+2024-04-17 16:28:45,722 running CmdStan, num_threads: None
+2024-04-17 16:28:45,722 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=82992', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\vy40d9y9.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\lwhebv_s.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_model9qu8gotb\\prophet_model-20240417162845.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 16:28:45,722 Chain [1] start processing
+2024-04-17 16:28:46,442 Chain [1] done processing
+2024-04-17 16:28:46,477 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 16:28:46,478 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB386D9C0>
+2024-04-17 16:45:07,717 Skipping MAPE because y close to 0
+2024-04-17 16:45:07,820 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 20}, RMSE: 0.06439414401632321
+2024-04-17 16:45:07,820 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 25}
+2024-04-17 16:45:07,821 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 16:45:08,061 TBB already found in load path
+2024-04-17 16:45:08,130 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\jb545scu.json
+2024-04-17 16:45:09,407 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\qyy6njt_.json
+2024-04-17 16:45:09,408 idx 0
+2024-04-17 16:45:09,408 running CmdStan, num_threads: None
+2024-04-17 16:45:09,408 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=61567', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\jb545scu.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\qyy6njt_.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelrd9_qibo\\prophet_model-20240417164509.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 16:45:09,408 Chain [1] start processing
+2024-04-17 16:45:10,104 Chain [1] done processing
+2024-04-17 16:45:10,138 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 16:45:10,138 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB839BB50>
+2024-04-17 17:02:27,829 Skipping MAPE because y close to 0
+2024-04-17 17:02:27,893 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 25}, RMSE: 0.0639952300567469
+2024-04-17 17:02:27,893 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 30}
+2024-04-17 17:02:27,895 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 17:02:28,203 TBB already found in load path
+2024-04-17 17:02:28,483 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\x7c54cnb.json
+2024-04-17 17:02:29,848 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\d2w69vyx.json
+2024-04-17 17:02:29,849 idx 0
+2024-04-17 17:02:29,849 running CmdStan, num_threads: None
+2024-04-17 17:02:29,850 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=97740', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\x7c54cnb.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\d2w69vyx.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_model5y7n29qo\\prophet_model-20240417170229.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 17:02:29,850 Chain [1] start processing
+2024-04-17 17:02:30,724 Chain [1] done processing
+2024-04-17 17:02:30,762 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 17:02:30,763 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB47F2B60>
+2024-04-17 17:19:06,340 Skipping MAPE because y close to 0
+2024-04-17 17:19:06,386 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.9, 'n_changepoints': 30}, RMSE: 0.06478087774924189
+2024-04-17 17:19:06,386 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 20}
+2024-04-17 17:19:06,387 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 17:19:06,685 TBB already found in load path
+2024-04-17 17:19:06,762 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\exgbgt53.json
+2024-04-17 17:19:08,039 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\kgtzr_92.json
+2024-04-17 17:19:08,040 idx 0
+2024-04-17 17:19:08,041 running CmdStan, num_threads: None
+2024-04-17 17:19:08,041 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=99917', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\exgbgt53.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\kgtzr_92.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modeles674l8u\\prophet_model-20240417171908.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 17:19:08,041 Chain [1] start processing
+2024-04-17 17:19:09,100 Chain [1] done processing
+2024-04-17 17:19:09,134 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 17:19:09,136 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FBA0ED8A0>
+2024-04-17 17:35:53,976 Skipping MAPE because y close to 0
+2024-04-17 17:35:54,057 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 20}, RMSE: 0.06445711932783088
+2024-04-17 17:35:54,057 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 25}
+2024-04-17 17:35:54,060 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 17:35:54,287 TBB already found in load path
+2024-04-17 17:35:54,570 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\3zj3ddn3.json
+2024-04-17 17:35:55,760 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\yca8ob2p.json
+2024-04-17 17:35:55,761 idx 0
+2024-04-17 17:35:55,761 running CmdStan, num_threads: None
+2024-04-17 17:35:55,761 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=25041', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\3zj3ddn3.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\yca8ob2p.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modeldlk_sf3s\\prophet_model-20240417173555.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 17:35:55,761 Chain [1] start processing
+2024-04-17 17:35:56,453 Chain [1] done processing
+2024-04-17 17:35:56,485 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 17:35:56,485 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB3826B90>
+2024-04-17 17:52:28,538 Skipping MAPE because y close to 0
+2024-04-17 17:52:28,617 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 25}, RMSE: 0.06358591235463797
+2024-04-17 17:52:28,617 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 30}
+2024-04-17 17:52:28,619 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 17:52:28,836 TBB already found in load path
+2024-04-17 17:52:28,887 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\nhj269k0.json
+2024-04-17 17:52:30,108 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\tw3dfhhf.json
+2024-04-17 17:52:30,108 idx 0
+2024-04-17 17:52:30,108 running CmdStan, num_threads: None
+2024-04-17 17:52:30,109 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=93882', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\nhj269k0.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\tw3dfhhf.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelztyfqpvm\\prophet_model-20240417175230.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 17:52:30,109 Chain [1] start processing
+2024-04-17 17:52:31,012 Chain [1] done processing
+2024-04-17 17:52:31,050 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 17:52:31,051 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FBE00C250>
+2024-04-17 18:08:50,984 Skipping MAPE because y close to 0
+2024-04-17 18:08:51,023 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.8, 'n_changepoints': 30}, RMSE: 0.06458574501529164
+2024-04-17 18:08:51,024 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.9, 'n_changepoints': 20}
+2024-04-17 18:08:51,026 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 18:08:51,317 TBB already found in load path
+2024-04-17 18:08:51,373 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\gmuvi0ec.json
+2024-04-17 18:08:52,818 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\qcp9x_an.json
+2024-04-17 18:08:52,819 idx 0
+2024-04-17 18:08:52,819 running CmdStan, num_threads: None
+2024-04-17 18:08:52,819 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=88398', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\gmuvi0ec.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\qcp9x_an.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modelus226eqy\\prophet_model-20240417180852.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 18:08:52,819 Chain [1] start processing
+2024-04-17 18:08:53,595 Chain [1] done processing
+2024-04-17 18:08:53,635 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 18:08:53,636 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FB3871F00>
+2024-04-17 18:25:17,437 Skipping MAPE because y close to 0
+2024-04-17 18:25:17,502 Finished cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.9, 'n_changepoints': 20}, RMSE: 0.06439414401632321
+2024-04-17 18:25:17,502 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.1, 'changepoint_range': 0.9, 'n_changepoints': 25}
+2024-04-17 18:25:17,503 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 18:25:17,747 TBB already found in load path
+2024-04-17 18:25:17,814 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\tc01i43e.json
+2024-04-17 18:25:19,168 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmp9bzdoomw\g5c6dp0g.json
+2024-04-17 18:25:19,169 idx 0
+2024-04-17 18:25:19,169 running CmdStan, num_threads: None
+2024-04-17 18:25:19,169 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=96800', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\tc01i43e.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\g5c6dp0g.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmp9bzdoomw\\prophet_modele_earwiq\\prophet_model-20240417182519.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 18:25:19,169 Chain [1] start processing
+2024-04-17 18:25:19,926 Chain [1] done processing
+2024-04-17 18:25:19,962 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 18:25:19,962 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x0000013FBBEC40D0>
+2024-04-17 18:41:36,509 Starting cross-validation for parameters {'changepoint_prior_scale': 0.001, 'seasonality_prior_scale': 0.01, 'growth': 'logistic', 'holidays_prior_scale': 0.01, 'changepoint_range': 0.8, 'n_changepoints': 20}
+2024-04-17 18:41:36,510 cmd: where.exe tbb.dll
+cwd: None
+2024-04-17 18:41:36,570 TBB already found in load path
+2024-04-17 18:41:36,625 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmpg9phyf0_\m7rmwuvv.json
+2024-04-17 18:41:38,271 input tempfile: C:\Users\Stijn\AppData\Local\Temp\tmpg9phyf0_\8di2w0kt.json
+2024-04-17 18:41:38,272 idx 0
+2024-04-17 18:41:38,272 running CmdStan, num_threads: None
+2024-04-17 18:41:38,273 CmdStan args: ['C:\\Users\\Stijn\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=90863', 'data', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmpg9phyf0_\\m7rmwuvv.json', 'init=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmpg9phyf0_\\8di2w0kt.json', 'output', 'file=C:\\Users\\Stijn\\AppData\\Local\\Temp\\tmpg9phyf0_\\prophet_modellvh974sv\\prophet_model-20240417184138.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2024-04-17 18:41:38,273 Chain [1] start processing
+2024-04-17 18:41:39,412 Chain [1] done processing
+2024-04-17 18:41:39,452 Seasonality has period of 365.25 days which is larger than initial window. Consider increasing initial.
+2024-04-17 18:41:39,453 Applying in parallel with <concurrent.futures.process.ProcessPoolExecutor object at 0x00000177B3CCF6A0>

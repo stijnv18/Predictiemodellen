@@ -1,0 +1,4 @@
+Total time taken: 1036.643703699112 seconds
+Best parameters: {'input_chunk_length': 48, 'output_chunk_length': 1, 'hidden_size': 16}
+Best score: 0.016622523925018614
+Finished at: Sat Mar 23 11:45:40 2024

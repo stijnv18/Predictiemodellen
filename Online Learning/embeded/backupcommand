@@ -1,0 +1,19 @@
+RUN apk update && \
+    apk add --no-cache \
+    gcc \
+    g++ \
+    hdf5-dev \
+    python3-dev \
+    git
+
+
+
+    COPY requirements.txt ./
+RUN apt-get update && apt-get install -y \
+    apt-utils\
+    gcc \
+    g++ \
+    libhdf5-dev \
+    python3-dev\
+    pkg-config\
+    git

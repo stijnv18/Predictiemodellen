@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      platform: linux/arm64
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python TIDE.py

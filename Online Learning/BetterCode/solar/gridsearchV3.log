@@ -1,0 +1,4 @@
+2024-04-23 10:32:05,719 - started running grid search for customer 36
+2024-04-23 10:34:07,235 - started running grid search for customer 36
+2024-04-23 10:35:29,334 - started running grid search for customer 36
+2024-04-23 15:26:49,186 - Best neuron numbers: (5, 27, 13), best MAE: 0.015826061440739662

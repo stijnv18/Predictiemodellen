@@ -1,0 +1,635 @@
+acme - 4.0.0 - Shorthand package for acme-acmesh.
+acme-acmesh - 3.0.7-1 - A client for issuing ACME (e.g, Letsencrypt) certificates.
+acme-acmesh-dnsapi - 3.0.7-1 - This package provides DNS API integration for ACME (Letsencrypt) client.
+acme-common - 1.0.4 - ACME client wrapper common files.
+adblock - 4.1.5-9 - Powerful adblock solution to block ad/abuse domains via dnsmasq, unbound, named or kresd.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+adblock-fast - 1.1.1-11 - Fast AdBlocking script to block ad or abuse/malware domains with DNSMASQ or Unbound.
+ Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
+ Please see https://docs.openwrt.melmac.net/adblock-fast/ for more information.
+airos-dfs-reset - 1-1 - Companion app for Ubiquity AirOS Gear to enforce fallback to original frequency after DFS event is over.
+ It works by soft-rebooting if running-frequency doesnt match the configured frequency.
+alsa-ucm-conf - 1.2.9-1 - This is a set of configuration files needed for some ALS utilities like alsactl.
+ariang - 1.3.6-1 - AriaNg is a web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment.
+ariang-nginx - 1.3.6-1 - AriaNg is a web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment.
+attendedsysupgrade-common - 8 - Common needed files for attendedsysupgrade tool
+ 
+ Manages dependencies and brings settings used by clients.
+ 
+ UCI options:
+ 
+ * attendedsysupgrade.server.url
+ URL of compatible upgrade server [1]
+ 
+ * attendedsysupgrade.client.upgrade_packages
+ Client should request image also if no new release but new packages
+ upgrade are available.
+ 
+ * attendedsysupgrade.client.advanced_mode
+ Offer advanced options like editing packages before request and show
+ additional information.
+ 
+ * attendedsysupgrade.client.auto_search
+ Tells the client to automattically search for upgrades
+ 
+ [1]: https://github.com/aparcar/asu
+autopart - 0.9-3 - Automatically allocate and initialize a partition for LVM on first boot.
+banip - 0.9.5-3 - banIP blocks IPs via named nftables Sets.
+ banIP supports many IP blocklist feeds and provides a log service to block suspicious IPs in realtime.
+ Please see https://github.com/openwrt/packages/blob/master/net/banip/files/README.md for further information.
+ 
+bcm43340-fw - 6.20.190-r2 - bcm43340-fw version 6.20.190-r2  Firmware files for use with Linux kernel
+bcm43340-fw-dbg - 6.20.190-r2 - bcm43340-fw version 6.20.190-r2 - Debugging files  Firmware files for use
+ with Linux kernel  This package contains ELF   symbols and related
+ sources for debugging purposes.
+bcm43340-fw-dev - 6.20.190-r2 - bcm43340-fw version 6.20.190-r2 - Development files  Firmware files for
+ use with Linux kernel  This package contains symbolic   links, header
+ files, and related items necessary for software   development.
+bcp38 - 5-11 - bcp38 implements IETF BCP38 for home routers.
+ See https://tools.ietf.org/html/bcp38.
+ 
+ This package provides BCP38 for IPv4 only - IPv6 uses source
+ specific default routes, so no firewall configuration is needed.
+bmx7-dnsupdate - 0.1-3 - bmx7-dnsupdate
+byobu - 5.133-1 - Byobu is a GPLv3 open source text-based window manager and terminal
+ multiplexer. It was originally designed to provide elegant enhancements
+ to the otherwise functional, plain, practical GNU Screen, for the Ubuntu
+ server distribution. Byobu now includes an enhanced profiles, convenient
+ keybindings, configuration utilities, and toggle-able system status
+ notifications for both the GNU Screen window manager and the more modern
+ Tmux terminal multiplexer, and works on most Linux, BSD, and Mac
+ distributions.
+byobu-utils - 5.133-1 - Byobu is a GPLv3 open source text-based window manager and terminal
+ multiplexer. It was originally designed to provide elegant enhancements
+ to the otherwise functional, plain, practical GNU Screen, for the Ubuntu
+ server distribution. Byobu now includes an enhanced profiles, convenient
+ keybindings, configuration utilities, and toggle-able system status
+ notifications for both the GNU Screen window manager and the more modern
+ Tmux terminal multiplexer, and works on most Linux, BSD, and Mac
+ distributions.
+ 
+ These are the "bikeshed" utilities bundled with byobu:
+ * col1..col9, NF
+ * ctail
+ * manifest
+ * purge-old-kernels
+ * vigpg
+ * wifi-status
+ca-certificates - 20140325-r0 - Common CA certificates  This package includes PEM files of CA
+ certificates to allow SSL-based   applications to check for the
+ authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.
+ca-certificates-dbg - 20140325-r0 - Common CA certificates - Debugging files  This package includes PEM files
+ of CA certificates to allow SSL-based   applications to check for the
+ authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.  This package contains ELF symbols   and related sources
+ for debugging purposes.
+ca-certificates-dev - 20140325-r0 - Common CA certificates - Development files  This package includes PEM
+ files of CA certificates to allow SSL-based   applications to check for
+ the authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.  This package contains symbolic   links, header files, and
+ related items necessary for software   development.
+ca-certificates-doc - 20140325-r0 - Common CA certificates - Documentation files  This package includes PEM
+ files of CA certificates to allow SSL-based   applications to check for
+ the authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.  This package contains   documentation.
+ddns-scripts - 2.8.2-42 - Dynamic DNS Client scripts (with IPv6 support)
+ A highly configurable set of scripts for doing dynamic dns updates.
+ - IPv6 support
+ - DNS server support
+ - Glue Record support (require BIND host or KNOT host)
+ - DNS requests via TCP
+ - Proxy server support
+ - log file support
+ - support to run once
+ Version: 2.8.2-42
+ Info   : https://openwrt.org/docs/guide-user/services/ddns/client
+ddns-scripts-cloudflare - 2.8.2-42 - Dynamic DNS Client scripts extension for cloudflare.com API v4 (require curl)
+ddns-scripts-cnkuai - 2.8.2-42 - Dynamic DNS Client scripts extension for "cnkuai.cn".
+ It requires:
+ "option username" to be a valid CnKuai control panel id
+ "option password" to be the matching CnKuai control panel password
+ "option domain" to contain the domain
+ddns-scripts-digitalocean - 2.8.2-42 - Dynamic DNS Client scripts extension for "digitalocean.com API v2".
+ The script directly updates a DNS record using the DO API.
+ It requires:
+ "option dns_server" to be set to the server to be used by nsupdate.
+ "option domain" the dns domain to update the record for (eg. A-record: home.<example.com>)
+ "option username" the dns record name to update (eg. A-record: <home>.example.com)
+ "option param_opt" the id of the dns record to update (check using chrome inspector in the DO dns tab)
+ "option password" the api token generated in the DO panel
+ddns-scripts-dnspod - 2.8.2-42 - Dynamic DNS Client scripts extension for dnspod.cn API (require curl)
+ddns-scripts-freedns - 2.8.2-42 - Dynamic DNS Client scripts extension for "freedns.42.pl".
+ddns-scripts-gandi - 2.8.2-42 - Dynamic DNS Client scripts extension for "gandi.net".
+ It requires:
+ "option username" to be a valid subdomain for gandi.net
+ "option password" to be a valid API key for gandi.net
+ddns-scripts-gcp - 2.8.2-42 - Dynamic DNS Client scripts extension for Google Cloud DNS API v1 (requires curl)
+ddns-scripts-godaddy - 2.8.2-42 - Dynamic DNS Client scripts extension for "godaddy.com API v1".
+ddns-scripts-luadns - 2.8.2-42 - Dynamic DNS Client scripts extension for LuaDNS API v1 (require curl)
+ddns-scripts-noip - 2.8.2-42 - Dynamic DNS Client scripts extension for "no-ip.com".
+ddns-scripts-ns1 - 2.8.2-42 - Dynamic DNS Client scripts extension for "ns1.com".
+ It requires:
+ "option username" to be a valid zone for ns1.com
+ "option password" to be a valid API key for ns1.com
+ddns-scripts-nsupdate - 2.8.2-42 - Dynamic DNS Client scripts extension for direct updates using bind nsupdate
+ The script directly updates a PowerDNS (or maybe bind server) via nsupdate
+ from bind-client package.
+ It requires:
+ "option dns_server" to be set to the server to be used by nsupdate.
+ "option username" should be set to the key name and
+ "option password" to the base64 encoded shared secret.
+ddns-scripts-one - 2.8.2-42 - Extension for one.com Control Panel
+ddns-scripts-pdns - 2.8.2-42 - Dynamic DNS Client scripts extension for "PowerDNS" via API.
+ It requires:
+ "option param_opt(Optional Parameter)" to be a valid root URL for the PowerDNS webserver
+ "option username" to be a valid subdomain for the PowerDNS domain
+ "option password" to be a valid API key for the PowerDNS webserver
+ddns-scripts-route53 - 2.8.2-42 - Dynamic DNS Client scripts extension for Amazon AWS "route53 API v1".
+ Note: You must also install ca-certificate or ca-bundle.
+ It requires:
+ "option username" to be a valid AWS access key id
+ "option password" to be the matching AWS secret key id
+ "option domain" to contain the hosted zone ID
+ddns-scripts-services - 2.8.2-42 - Dynamic DNS Client definitions for supported services
+ddns-scripts-transip - 2.8.2-42 - Dynamic DNS Client scripts extension for "transip.nl".
+ Note: You must also install ca-certificate or ca-bundle.
+ It requires:
+ "option username" to be a valid username for transip.nl
+ "option password" to be a valid matching private key
+ "option domain" to contain the base domain
+ "option param_enc" to contain the name of the DNS record to update
+ "option param_opt" to contain the TTL of the DNS record to update
+ddns-scripts-utils - 2.8.2-42 - Dynamic DNS Client utility scripts for config files
+debian-archive-keyring - 2021.1.1-1 - Debian Archive keyring
+dkjson - 2.5-4 - Lua JSON parser/serializer with UTF-8 support
+dynapoint - 3 - Dynapoint uses LUA scripts to allow dynamic access point creation
+ and deletion depending on changes of certain network conditions.
+external-protocol - 20231119-1 - external protocol is a general protocol for assisting
+ setup of many virtual devices that lack proper
+ protocol support in openwrt. Such as netavark, cni and
+ netbird for example. External protocol is supposed
+ to be managed with external software, not directly.
+ 
+ external protocol works automaticly on the background
+ and sets up netifd details when interface comes up or
+ goes down. This allows one to easily add interface to
+ a firewall zone.
+ 
+ as a example use case, podman, with network where it's
+ internal firewall and portmapper are disabled, control
+ of firewalling, whether it was exposing ports or
+ limiting/accepting access between networks, such as
+ lan can be made through openwrt's own firewalling
+ configuration if you used external protocol.
+ 
+ podman example configuration could be as following:
+ - lan network: 10.0.0.0/16 (255.255.0.0)
+ - container network: 10.129.0.1/24 (255.255.255.0)
+ 
+ Add a network configuration for your container network
+ using external protocol. Then create firewall zone for it.
+ 
+ You could create a new container/pod with static ip
+ address 10.129.0.2 (as 10.129.0.1 as container network's
+ gateway).
+ 
+ Easily define permissions so that local networks can
+ connect to container network, but not the other way around.
+ Also you want to allow forwarding from/to wan.
+ 
+ Now, as container cannot access local dns, make a rule for
+ your firewall to accept connections from container network
+ to port 53 (dns).
+ 
+ Now all you have to do, is make redirects to your firewall
+ and point them to 10.129.0.2 and connections from wan are
+ redirectered to containers/pods.
+ 
+ external protocol also works for other applications as
+ well that are using veth/tun/etc devices and don't have
+ a hand-tailored protocol available, such as vpn service
+ netbird.
+ 
+ Protocol has 3 settings: device, searchdomain and delay.
+ Sometimes polling interfaces takes some time, and in
+ that case you might want to add few seconds to delay.
+ Otherwise, it can be excluded from configuration.
+ Option for searchdomain is also completely optional.
+ 
+ package was previously known as cni protocol but as
+ it can be used on so many other things, naming became
+ mis-leading and it was renamed to external protocol.
+family-dns - 1.0.0-2 - This package configures your router to block adult websites.
+ The default settings are designed to be appropriate for most businesses,
+ schools and families.
+golang-github-jedisct1-dnscrypt-proxy2-dev - 2.1.5-1 - A flexible DNS proxy, with support for modern encrypted DNS protocols
+ such as DNSCrypt v2 and DNS-over-HTTPS.
+ 
+ This package provides the source files for the client/bridge program.
+golang-github-nextdns-nextdns-dev - 1.42.0-1 - Official NextDNS DNS over HTTPS Proxy.
+ 
+ This package provides the source files for the client/bridge program.
+golang-gitlab-yawning-obfs4-dev - 0.0.14-1 - obfs4proxy is a tool that attempts to circumvent censorship by
+ transforming the Tor traffic between the client and the bridge. This way
+ censors, who usually monitor traffic between the client and the bridge,
+ will see innocent-looking transformed traffic instead of the actual Tor
+ traffic.
+ 
+ obfs4proxy implements the obfsucation protocols obfs2, obfs3, and obfs4.
+ 
+ It is written in Go and is compliant with the Tor pluggable transports
+ specification, and its modular architecture allows it to support
+ multiple pluggable transports.
+ 
+ This package provides the source files for the client/bridge program.
+gstreamer1.0-meta-audio - 1.0-r0 - gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+gstreamer1.0-meta-base - 1.0-r0 - gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+gstreamer1.0-meta-base-dbg - 1.0-r0 - gstreamer1.0-meta-base version 1.0-r0 - Debugging files  Gstreamer1.0
+ package groups  This package contains ELF symbols and   related sources
+ for debugging purposes.
+gstreamer1.0-meta-base-dev - 1.0-r0 - gstreamer1.0-meta-base version 1.0-r0 - Development files  Gstreamer1.0
+ package groups  This package contains symbolic links, header   files, and
+ related items necessary for software development.
+gstreamer1.0-meta-debug - 1.0-r0 - gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+gstreamer1.0-meta-video - 1.0-r0 - gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+gstreamer1.0-meta-x11-base - 1.0-r0 - gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+ieee8021xclient - 3 - Wired 802.1x client config support in /etc/config/network.
+json4lua - 0.9.54-1 - JSON and JSONRPC for Lua
+jupp-data - 3.1.40-1 - jupp Emacs/JOE/Pico emulations, syntax highlighting
+kitty-terminfo - 0.24.4-2 - Terminfo for kitty, an OpenGL-based terminal emulator
+librhino-java - 1.7r4-r0 - rhino version 1.7r4-r0  Lexical analyzer generator for Java
+lua-argparse - 0.6.0-1 - Argparse is a feature-rich command line parser for Lua inspired by argparse for Python.
+lua-bencode - 2.2.0-1 - This is a module for the lua programming language for decoding and encoding
+ bencoded data which can be used to read and write torrent files for bittorrent.
+lua-mobdebug - 0.70-1 - MobDebug is a remote debugger for Lua (including Lua 5.1, Lua 5.2, Lua 5.3, and LuaJIT 2.x).
+lua-wsapi-base - 1.7-2 - WSAPI is an API that abstracts the web server from Lua web applications
+ .
+ This package contains the basic stuff.
+lua-wsapi-xavante - 1.7-2 - WSAPI is an API that abstracts the web server from Lua web applications
+ .
+ This package contains the Xavante stuff.
+lua-xavante - 2.4.0-1 - Xavante is a Lua HTTP 1.1 Web server that uses a modular architecture based on URI mapped handlers.
+luasoap - 2014-08-21-af1e100281cee4b972df10121e37e51d53367a98 - LuaSOAP is a library of functions to deal with SOAP.
+luasrcdiet - 1.0.0-1 - Compresses Lua source code by removing unnecessary characters
+midisport-firmware - 1.2-1 - This package allows you to use the MidiSport USB MIDI interfaces from
+ M-Audio/Midiman.
+ 
+ Supported devices:
+ - MidiSport 1x1
+ - MidiSport 2x2
+ - MidiSport 4x4
+ - MidiSport 8x8
+ - MidiSport Uno
+ - Keystation
+ - Oxygen
+ - Radium
+ 
+ (You don't need a firmware download for the USB Audio Quattro, Duo, or
+ MidiSport 2x4.)
+mwan3 - 2.11.8-1 - Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+nebula-proto - 1.8.2-2 - Nebula is a scalable overlay networking tool with a focus on performance, simplicity
+ and security. It lets you seamlessly connect computers anywhere in the world.
+ This package contains only OpenWrt protocol/interface support for nebula.
+nebula-service - 1.8.2-2 - Nebula is a scalable overlay networking tool with a focus on performance, simplicity
+ and security. It lets you seamlessly connect computers anywhere in the world.
+ This package contains only OpenWrt-specific init.d script for nebula.
+nft-qos - 1.0.6-4 - This package provides implementation for qos over nftables.
+ Currently, static/dynamic qos and traffic shaping are supported.
+nginx - 1.25.0-4 - nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev.
+nginx-mod-luci-ssl - 1.25.0-4 - Dummy package for transition when upgrading.
+nginx-util - 1.6-18 - Dummy package for removing nginx-util when upgrading.
+openvpn-easy-rsa - 3.0.8-4 - CLI utility to build and manage a PKI CA.
+openwisp-config - 1.0.1-2 - Remote configuration management agent
+packagegroup-core-buildessential - 1.0-r0 - Essential build dependencies  Essential build dependencies.
+packagegroup-core-buildessential-dbg - 1.0-r0 - Essential build dependencies - Debugging files  Essential build
+ dependencies.  This package contains ELF symbols and   related sources
+ for debugging purposes.
+packagegroup-core-buildessential-dev - 1.0-r0 - Essential build dependencies - Development files  Essential build
+ dependencies.  This package contains symbolic links,   header files, and
+ related items necessary for software development.
+packagegroup-core-sdk - 1.0-r9 - Software development tools  Software development tools.
+packagegroup-core-sdk-dbg - 1.0-r9 - Software development tools - Debugging files  Software development tools.
+ This package contains ELF symbols and   related sources for debugging
+ purposes.
+packagegroup-core-sdk-dev - 1.0-r9 - Software development tools - Development files  Software development
+ tools.  This package contains symbolic links, header   files, and related
+ items necessary for software development.
+packagegroup-core-ssh-openssh - 1.0-r1 - OpenSSH SSH client/server  OpenSSH SSH client/server.
+packagegroup-core-ssh-openssh-dbg - 1.0-r1 - OpenSSH SSH client/server - Debugging files  OpenSSH SSH client/server.
+ This package contains ELF symbols and related   sources for debugging
+ purposes.
+packagegroup-core-ssh-openssh-dev - 1.0-r1 - OpenSSH SSH client/server - Development files  OpenSSH SSH client/server.
+ This package contains symbolic links, header   files, and related items
+ necessary for software development.
+packagegroup-core-standalone-sdk-target - 1.0-r8 - Target packages for the standalone SDK  Target packages for the
+ standalone SDK.
+packagegroup-core-standalone-sdk-target-dbg - 1.0-r8 - Target packages for the standalone SDK - Debugging files  Target packages
+ for the standalone SDK.  This package contains ELF   symbols and related
+ sources for debugging purposes.
+packagegroup-core-standalone-sdk-target-dev - 1.0-r8 - Target packages for the standalone SDK - Development files  Target
+ packages for the standalone SDK.  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+packagegroup-core-tools-debug - 1.0-r3 - Debugging tools  Debugging tools.
+packagegroup-core-tools-debug-dbg - 1.0-r3 - Debugging tools - Debugging files  Debugging tools.  This package
+ contains ELF symbols and related sources   for debugging purposes.
+packagegroup-core-tools-debug-dev - 1.0-r3 - Debugging tools - Development files  Debugging tools.  This package
+ contains symbolic links, header files, and   related items necessary for
+ software development.
+pbr - 1.1.1-7 - This service enables policy-based routing for WAN interfaces and various VPN tunnels.
+ This version supports OpenWrt with both firewall3/ipset/iptables and firewall4/nft.
+pbr-iptables - 1.1.1-7 - This service enables policy-based routing for WAN interfaces and various VPN tunnels.
+ This version supports OpenWrt with firewall3/ipset/iptables.
+perl-net-cidr-lite - 0.21+perl5.28-1 - Perl extension for merging IPv4 or IPv6 CIDR addresses
+phantap - 2022.10.30-815c312c-1 - PhanTap or Phantom tap is a small set of scripts and C code that allow you to setup a
+ network tap that automatically impersonate a victim device, allowing you to access
+ internet using the IP & MAC of the victim.
+pppossh - 2 - This package adds protocol support for PPP over SSH.  The protocol name is
+ 'pppossh' as in netifd interface config option 'proto'.
+prometheus-node-exporter-lua - 2022.08.08-1 - Provides node metrics as Prometheus scraping endpoint.
+ 
+ This service is a lightweight rewrite in LUA of the offical Prometheus node_exporter.
+prometheus-node-exporter-lua-bmx7 - 2022.08.08-1 - Prometheus node exporter (bmx7 links collector)
+prometheus-node-exporter-lua-dawn - 2022.08.08-1 - Prometheus node exporter (dawn collector)
+prometheus-node-exporter-lua-hostapd_stations - 2022.08.08-1 - Prometheus node exporter (hostapd_stations collector) - Requires a full hostapd / wpad build
+prometheus-node-exporter-lua-hostapd_ubus_stations - 2022.08.08-1 - Prometheus node exporter (hostapd_ubus_stations collector)
+prometheus-node-exporter-lua-nat_traffic - 2022.08.08-1 - Prometheus node exporter (nat_traffic collector)
+prometheus-node-exporter-lua-netstat - 2022.08.08-1 - Prometheus node exporter (netstat collector)
+prometheus-node-exporter-lua-openwrt - 2022.08.08-1 - Prometheus node exporter (openwrt collector)
+prometheus-node-exporter-lua-snmp6 - 2022.08.08-1 - Prometheus node exporter (snmp6 collector)
+prometheus-node-exporter-lua-textfile - 2022.08.08-1 - Prometheus node exporter (textfile collector)
+prometheus-node-exporter-lua-ubnt-manager - 2022.08.08-1 - Prometheus node exporter (ubnt-manager collector)
+prometheus-node-exporter-lua-uci_dhcp_host - 2022.08.08-1 - Prometheus node exporter (uci_dhcp_host collector)
+prometheus-node-exporter-lua-wifi - 2022.08.08-1 - Prometheus node exporter (wifi collector)
+prometheus-node-exporter-lua-wifi_stations - 2022.08.08-1 - Prometheus node exporter (wifi_stations collector)
+proto-bonding - 2021-04-09-3 - This package contains the channel bonding proto handler for netifd
+rclone-ng - 0.5.0-1 - An angular web application for rclone
+rclone-webui-react - 2.0.5-1 - A full fledged UI for the rclone cloud sync tool.
+rhino - 1.7r4-r0 - rhino version 1.7r4-r0  Lexical analyzer generator for Java
+run-postinsts - 1.0-r9 - Runs postinstall scripts on first boot of the target device  Runs
+ postinstall scripts on first boot of the target device.
+run-postinsts-dbg - 1.0-r9 - Runs postinstall scripts on first boot of the target device - Debugging
+ files  Runs postinstall scripts on first boot of the target device.  This
+ package contains ELF symbols and related sources for debugging purposes.
+run-postinsts-dev - 1.0-r9 - Runs postinstall scripts on first boot of the target device - Development
+ files  Runs postinstall scripts on first boot of the target device.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+safe-search - 2.0.1-11 - This package prevents adult content from appearing in search results by
+ configuring dnsmasq to force all devices on your network to use Google and
+ Bing's Safe Search IP addresses. This is designed to be approperiate for most
+ businesses and families. The default filtering rules do not interfere with
+ normal web browsing.
+slide-switch - 1.0.0-1 - slide-switch translates slide switch position changes into normal button
+ presses and releases for OpenWrt devices.
+smartd-mail - 7.3-2 - A script for mailing about SMART issues
+smartmontools-drivedb - 7.3-2 - Database of known drives and USB bridges for smartctl and smartd.
+speedtest-netperf - 1.0.0-1 - Script to measure the performance of your network and router.
+ 
+ Please see https://github.com/openwrt/packages/blob/master/net/speedtest-netperf/files/README.md for further information.
+sqm-scripts - 1.6.0-1 - A set of scripts that does simple SQM configuration.
+sqm-scripts-extra - 2016-06-08-1 - A set of experimental scripts for sqm-scripts QoS package. The contents of this package may
+ change as new qdiscs like 'cake' are developed and tested.
+sshtunnel - 4-5 - Creates openssh ssh(1) local and remote tunnels configured in UCI file. Can be used to allow remote connections, possibly over NATed connections or without public IP/DNS
+static-neighbor-reports - 1-2 - Allows to configure static neighbor reports for hostapd interfaces.
+ 
+ These neighbor reports are avilable to clients using IEEE 802.11k.
+switchdev-poller - 1.1.0-1 - This service monitors switchdev ports and brings down CPU ports when
+ all related non-CPU vlan ports are also down. Otherwise, it brings
+ the port up.
+systemd-compat-units - 1.0-r29 - Enhances systemd compatilibity with existing SysVinit scripts  Enhances
+ systemd compatilibity with existing SysVinit scripts.
+systemd-compat-units-dbg - 1.0-r29 - Enhances systemd compatilibity with existing SysVinit scripts - Debugging
+ files  Enhances systemd compatilibity with existing SysVinit scripts.
+ This   package contains ELF symbols and related sources for debugging
+ purposes.
+systemd-compat-units-dev - 1.0-r29 - Enhances systemd compatilibity with existing SysVinit scripts -
+ Development files  Enhances systemd compatilibity with existing SysVinit
+ scripts.  This   package contains symbolic links, header files, and
+ related items   necessary for software development.
+tesseract-data-afr - 4.1.0-2 - Training data for afr language
+tesseract-data-amh - 4.1.0-2 - Training data for amh language
+tesseract-data-ara - 4.1.0-2 - Training data for ara language
+tesseract-data-asm - 4.1.0-2 - Training data for asm language
+tesseract-data-aze - 4.1.0-2 - Training data for aze language
+tesseract-data-aze_cyrl - 4.1.0-2 - Training data for aze_cyrl language
+tesseract-data-bel - 4.1.0-2 - Training data for bel language
+tesseract-data-ben - 4.1.0-2 - Training data for ben language
+tesseract-data-bod - 4.1.0-2 - Training data for bod language
+tesseract-data-bos - 4.1.0-2 - Training data for bos language
+tesseract-data-bre - 4.1.0-2 - Training data for bre language
+tesseract-data-bul - 4.1.0-2 - Training data for bul language
+tesseract-data-cat - 4.1.0-2 - Training data for cat language
+tesseract-data-ceb - 4.1.0-2 - Training data for ceb language
+tesseract-data-ces - 4.1.0-2 - Training data for ces language
+tesseract-data-chi_sim - 4.1.0-2 - Training data for chi_sim language
+tesseract-data-chi_sim_vert - 4.1.0-2 - Training data for chi_sim_vert language
+tesseract-data-chi_tra - 4.1.0-2 - Training data for chi_tra language
+tesseract-data-chi_tra_vert - 4.1.0-2 - Training data for chi_tra_vert language
+tesseract-data-chr - 4.1.0-2 - Training data for chr language
+tesseract-data-cos - 4.1.0-2 - Training data for cos language
+tesseract-data-cym - 4.1.0-2 - Training data for cym language
+tesseract-data-dan - 4.1.0-2 - Training data for dan language
+tesseract-data-dan_frak - 4.1.0-2 - Training data for dan_frak language
+tesseract-data-deu - 4.1.0-2 - Training data for deu language
+tesseract-data-deu_frak - 4.1.0-2 - Training data for deu_frak language
+tesseract-data-div - 4.1.0-2 - Training data for div language
+tesseract-data-dzo - 4.1.0-2 - Training data for dzo language
+tesseract-data-ell - 4.1.0-2 - Training data for ell language
+tesseract-data-eng - 4.1.0-2 - Training data for eng language
+tesseract-data-enm - 4.1.0-2 - Training data for enm language
+tesseract-data-epo - 4.1.0-2 - Training data for epo language
+tesseract-data-equ - 4.1.0-2 - Training data for equ language
+tesseract-data-est - 4.1.0-2 - Training data for est language
+tesseract-data-eus - 4.1.0-2 - Training data for eus language
+tesseract-data-fao - 4.1.0-2 - Training data for fao language
+tesseract-data-fas - 4.1.0-2 - Training data for fas language
+tesseract-data-fil - 4.1.0-2 - Training data for fil language
+tesseract-data-fin - 4.1.0-2 - Training data for fin language
+tesseract-data-fra - 4.1.0-2 - Training data for fra language
+tesseract-data-frk - 4.1.0-2 - Training data for frk language
+tesseract-data-frm - 4.1.0-2 - Training data for frm language
+tesseract-data-fry - 4.1.0-2 - Training data for fry language
+tesseract-data-gla - 4.1.0-2 - Training data for gla language
+tesseract-data-gle - 4.1.0-2 - Training data for gle language
+tesseract-data-glg - 4.1.0-2 - Training data for glg language
+tesseract-data-grc - 4.1.0-2 - Training data for grc language
+tesseract-data-guj - 4.1.0-2 - Training data for guj language
+tesseract-data-hat - 4.1.0-2 - Training data for hat language
+tesseract-data-heb - 4.1.0-2 - Training data for heb language
+tesseract-data-hin - 4.1.0-2 - Training data for hin language
+tesseract-data-hrv - 4.1.0-2 - Training data for hrv language
+tesseract-data-hun - 4.1.0-2 - Training data for hun language
+tesseract-data-hye - 4.1.0-2 - Training data for hye language
+tesseract-data-iku - 4.1.0-2 - Training data for iku language
+tesseract-data-ind - 4.1.0-2 - Training data for ind language
+tesseract-data-isl - 4.1.0-2 - Training data for isl language
+tesseract-data-ita - 4.1.0-2 - Training data for ita language
+tesseract-data-ita_old - 4.1.0-2 - Training data for ita_old language
+tesseract-data-jav - 4.1.0-2 - Training data for jav language
+tesseract-data-jpn - 4.1.0-2 - Training data for jpn language
+tesseract-data-jpn_vert - 4.1.0-2 - Training data for jpn_vert language
+tesseract-data-kan - 4.1.0-2 - Training data for kan language
+tesseract-data-kat - 4.1.0-2 - Training data for kat language
+tesseract-data-kat_old - 4.1.0-2 - Training data for kat_old language
+tesseract-data-kaz - 4.1.0-2 - Training data for kaz language
+tesseract-data-khm - 4.1.0-2 - Training data for khm language
+tesseract-data-kir - 4.1.0-2 - Training data for kir language
+tesseract-data-kmr - 4.1.0-2 - Training data for kmr language
+tesseract-data-kor - 4.1.0-2 - Training data for kor language
+tesseract-data-kor_vert - 4.1.0-2 - Training data for kor_vert language
+tesseract-data-lao - 4.1.0-2 - Training data for lao language
+tesseract-data-lat - 4.1.0-2 - Training data for lat language
+tesseract-data-lav - 4.1.0-2 - Training data for lav language
+tesseract-data-lit - 4.1.0-2 - Training data for lit language
+tesseract-data-ltz - 4.1.0-2 - Training data for ltz language
+tesseract-data-mal - 4.1.0-2 - Training data for mal language
+tesseract-data-mar - 4.1.0-2 - Training data for mar language
+tesseract-data-mkd - 4.1.0-2 - Training data for mkd language
+tesseract-data-mlt - 4.1.0-2 - Training data for mlt language
+tesseract-data-mon - 4.1.0-2 - Training data for mon language
+tesseract-data-mri - 4.1.0-2 - Training data for mri language
+tesseract-data-msa - 4.1.0-2 - Training data for msa language
+tesseract-data-mya - 4.1.0-2 - Training data for mya language
+tesseract-data-nep - 4.1.0-2 - Training data for nep language
+tesseract-data-nld - 4.1.0-2 - Training data for nld language
+tesseract-data-nor - 4.1.0-2 - Training data for nor language
+tesseract-data-oci - 4.1.0-2 - Training data for oci language
+tesseract-data-ori - 4.1.0-2 - Training data for ori language
+tesseract-data-osd - 4.1.0-2 - Training data for osd language
+tesseract-data-pan - 4.1.0-2 - Training data for pan language
+tesseract-data-pol - 4.1.0-2 - Training data for pol language
+tesseract-data-por - 4.1.0-2 - Training data for por language
+tesseract-data-pus - 4.1.0-2 - Training data for pus language
+tesseract-data-que - 4.1.0-2 - Training data for que language
+tesseract-data-ron - 4.1.0-2 - Training data for ron language
+tesseract-data-rus - 4.1.0-2 - Training data for rus language
+tesseract-data-san - 4.1.0-2 - Training data for san language
+tesseract-data-sin - 4.1.0-2 - Training data for sin language
+tesseract-data-slk - 4.1.0-2 - Training data for slk language
+tesseract-data-slk_frak - 4.1.0-2 - Training data for slk_frak language
+tesseract-data-slv - 4.1.0-2 - Training data for slv language
+tesseract-data-snd - 4.1.0-2 - Training data for snd language
+tesseract-data-spa - 4.1.0-2 - Training data for spa language
+tesseract-data-spa_old - 4.1.0-2 - Training data for spa_old language
+tesseract-data-sqi - 4.1.0-2 - Training data for sqi language
+tesseract-data-srp - 4.1.0-2 - Training data for srp language
+tesseract-data-srp_latn - 4.1.0-2 - Training data for srp_latn language
+tesseract-data-sun - 4.1.0-2 - Training data for sun language
+tesseract-data-swa - 4.1.0-2 - Training data for swa language
+tesseract-data-swe - 4.1.0-2 - Training data for swe language
+tesseract-data-syr - 4.1.0-2 - Training data for syr language
+tesseract-data-tam - 4.1.0-2 - Training data for tam language
+tesseract-data-tat - 4.1.0-2 - Training data for tat language
+tesseract-data-tel - 4.1.0-2 - Training data for tel language
+tesseract-data-tgk - 4.1.0-2 - Training data for tgk language
+tesseract-data-tgl - 4.1.0-2 - Training data for tgl language
+tesseract-data-tha - 4.1.0-2 - Training data for tha language
+tesseract-data-tir - 4.1.0-2 - Training data for tir language
+tesseract-data-ton - 4.1.0-2 - Training data for ton language
+tesseract-data-tur - 4.1.0-2 - Training data for tur language
+tesseract-data-uig - 4.1.0-2 - Training data for uig language
+tesseract-data-ukr - 4.1.0-2 - Training data for ukr language
+tesseract-data-urd - 4.1.0-2 - Training data for urd language
+tesseract-data-uzb - 4.1.0-2 - Training data for uzb language
+tesseract-data-uzb_cyrl - 4.1.0-2 - Training data for uzb_cyrl language
+tesseract-data-vie - 4.1.0-2 - Training data for vie language
+tesseract-data-yid - 4.1.0-2 - Training data for yid language
+tesseract-data-yor - 4.1.0-2 - Training data for yor language
+trafficshaper - 1.0.0-2 - Setup QoS rules to limit (or reserve) traffic used by classes of clients.
+ Uplink and downlink can be controled (or not controlled) independently.
+ Client classes are defined by its network addresses (IPv4 or IPv6). Each
+ client class can define absolute or relative (to wan) bandwith, and also
+ the use (or not) of spare wan bandwidth when avaiable.
+transmission-web - 4.0.4-1 - Webinterface resources for transmission.
+transmission-web-control - 2021-09-25-4b2e1858-3 - Transmission Web Control is a custom Web UI for Transmission.
+travelmate - 2.1.2-6 - A wlan connection manager for travel router.
+ Please see https://github.com/openwrt/packages/blob/master/net/travelmate/files/README.md for further information.
+ 
+tzdata - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-africa - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-americas - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-antarctica - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-arctic - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-asia - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-atlantic - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-australia - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-europe - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-misc - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-pacific - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-posix - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+tzdata-right - 2015d-r0 - tzdata version 2015d-r0  Timezone data
+ubnt-manager - 1-2 - Managment app for Ubiquiti devices.
+update-rc.d - 0.7-r5 - manage symlinks in /etc/rcN.d  update-rc.d is a utilities that allows the
+ management of symlinks to the   initscripts in the /etc/rcN.d directory
+ structure.
+update-rc.d-dbg - 0.7-r5 - manage symlinks in /etc/rcN.d - Debugging files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   ELF symbols
+ and related sources for debugging purposes.
+update-rc.d-dev - 0.7-r5 - manage symlinks in /etc/rcN.d - Development files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+uspot-www - 2024-03-25-094f0df8-1 - This package provides CSS and HTML templates for uspot UI.
+ This package must be installed with uspot unless a local alternative is provided.
+uspotfilter - 2024-03-25-094f0df8-1 - This package provides the nftables firewall interface to spotfilter.
+ It is compatible with firewall4.
+uuid - 0.2.0-1 - A pure Lua uuid generator
+uvol - 0.9-3 - 'uvol' is a tool to automate storage volume handling on embedded
+ devices in a generic way.
+ Depending on what is available, 'uvol' will use either UBI or LVM2
+ as storage backends and transparently offer identical operations on
+ top of them.
+ 
+ Also install the 'autopart' package to easily make use of 'uvol' on
+ block-storage based devices.
+ 
+ Examples:
+ uvol create example_volume_1 268435456 rw
+ uvol up example_volume_1
+ uvol device example_volume_1
+ 
+ uvol create example_volume_2 9812733 ro
+ cat example_volume_2.squashfs | uvol write example_volume_2 9812733
+ uvol up example_volume_2
+ uvol device example_volume_2
+v2ray-example - 5.15.3-1 - Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for v2ray-core.
+v2ray-extra - 5.15.3-1 - Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes extra resources for v2ray-core.
+v2ray-geoip - 202404110039-1 - GeoIP List for V2Ray
+v2ray-geosite - 20240410101316-1 - Geosite List for V2Ray
+v2ray-geosite-ir - 202404150255-1 - Iran Geosite List for V2Ray
+vpnc-scripts - 20151220-3 - This package contains the vpnc-script which is used by vpnc
+ and OpenConnect to configure the tunnel interface.
+wakeonlan - 0.41-1 - With this package you can remotely wake up and power on machines which have
+ motherboards or network cards that support 'Wake-on-Lan' packets.
+ .
+ The tool allows you to wake up a single machine, or a group of machines.
+ .
+ You need the MAC addresses of machines to construct the WOL packets, but,
+ in contrast to 'etherwake', you do not need root privileges to use the
+ program itself as UDP packets are used.
+watchcat - 1-17 - Restart network interfaces or reboot if pings to hosts fail, or set up periodic reboots. Configured via UCI /etc/config/watchcat
+webui-aria2 - 2018-12-09-fb9d758d-1 - The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use.
+wg-installer-client - 28 - WireGuard Installer (client)
+wg-installer-server - 28 - WireGuard Installer (server)
+wg-installer-server-hotplug-babeld - 28 - WireGuard Installer (server)
+wg-installer-server-hotplug-olsrd - 28 - WireGuard Installer (server)
+wifischedule - 1-3 - Turns WiFi on and off according to a schedule defined in UCI.
+wifitoggle - 1-6 - Very versatile script to toggle Wi-Fi with a button. Allows to set
+ timeouts, persist changes after boot, and set LEDs according to the state.
+xray-example - 1.8.7-1 - Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for xray-core.
